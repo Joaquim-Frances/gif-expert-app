@@ -4,8 +4,49 @@
 
 body {
     padding: 60px;
+    background-color: rgb(199, 199, 199);
+}
+
+.addCategory{
+    display: flex;
+    flex-direction: row;
+    color: grey;
+    align-items: center;
 }
 
 input{
-    margin-left: 6px;
+    color: purple;
+    font-size: 1.2rem;
+    width: 30%;
+    margin-left: 10px;
+    height: 20px;
+}
+
+.card{
+    align-content: center;
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 5px;
+    justify-content: center;
+    max-width: 200px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+    box-shadow: 2px 4px 6px 2px rgb(122, 122, 122);
+    
+}
+
+.card p {
+    padding: 5px;
+    text-align: center;
+    
+}
+
+.card img {
+    max-height: 150px;
+}
+
+.card-grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
