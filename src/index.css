@@ -5,3 +5,7 @@
 body {
     padding: 60px;
 }
+
+input{
+    margin-left: 6px;
+}
