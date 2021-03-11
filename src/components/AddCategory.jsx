@@ -21,7 +21,7 @@ export const AddCategory = ( {setCategories} ) => {
     }
 
     return (
-        <form className="addCategory" onSubmit={ handleSubmit }>
+        <form className="addCategory animate__animated animate__zoomIn" onSubmit={ handleSubmit }>
             <h3>Buscar categoria: </h3>
             <input 
                 type="text"

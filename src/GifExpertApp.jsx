@@ -10,7 +10,7 @@ const GifExpertApp = () => {
 
 
     return (
-        <div>
+        <div className="animate__animated animate__fadeInRightBig">
             <h2>Gif Expert App</h2>
             <AddCategory setCategories={ setCategories }/>
             <hr/>
