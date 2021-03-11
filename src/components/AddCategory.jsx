@@ -22,12 +22,13 @@ export const AddCategory = ( {setCategories} ) => {
 
     return (
         <form className="addCategory" onSubmit={ handleSubmit }>
-            <h3>Add Category</h3>
+            <h3>Buscar categoria: </h3>
             <input 
                 type="text"
                 value={ inputValue }
-                placeholder="Entrar datos..."
+                placeholder="¿Sobre que tema quieres que busque GIFs?"
                 onChange= { handleImputChange }
+                className="input-category"
             />
         </form>
     )

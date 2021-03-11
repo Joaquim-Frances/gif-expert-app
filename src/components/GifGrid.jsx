@@ -8,11 +8,6 @@ export const GifGrid = ({category}) => {
    
     const { data, loading } = useFetchGifs( category );
     
-
-    // useEffect ( ()=> {
-    //     getGif( category ).then( setImages );
-    // }, [ category]);
-    
     return (
         <Fragment>
         <h3> { category } </h3>
