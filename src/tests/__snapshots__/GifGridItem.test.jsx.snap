@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing GifItem Component Compononet is rendering properly 1`] = `
+<div
+  className="card animate__animated animate__fadeIn"
+  key="1"
+>
+  <img
+    alt="titulo aleatorio"
+    src="https://silencetimer.com"
+  />
+</div>
+`;
