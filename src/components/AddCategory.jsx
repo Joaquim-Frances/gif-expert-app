@@ -10,6 +10,7 @@ export const AddCategory = ( {setCategories} ) => {
 
     const handleImputChange = (event) => {
         setInputValue(event.target.value);
+        console.log('HandleInputChange Llamado!')
     }
 
     const handleSubmit = (event) =>{
@@ -23,6 +24,7 @@ export const AddCategory = ( {setCategories} ) => {
     return (
         <form className="addCategory animate__animated animate__zoomIn" onSubmit={ handleSubmit }>
             <h3>Buscar categoria: </h3>
+            <p> { inputValue } </p>
             <input 
                 type="text"
                 value={ inputValue }

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing all "AddCategory" functions should mantain the structure 1`] = `
+<form
+  className="addCategory animate__animated animate__zoomIn"
+  onSubmit={[Function]}
+>
+  <h3>
+    Buscar categoria: 
+  </h3>
+  <p>
+     
+     
+  </p>
+  <input
+    className="input-category"
+    onChange={[Function]}
+    placeholder="¿Sobre que tema quieres que busque GIFs?"
+    type="text"
+    value=""
+  />
+</form>
+`;
