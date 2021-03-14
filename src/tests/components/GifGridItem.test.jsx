@@ -1,5 +1,5 @@
 import React from 'react';
-import  {GifGridItem}  from '../components/GifGridItem';
+import  {GifGridItem}  from '../../components/GifGridItem';
 import { shallow } from 'enzyme';
 import '@testing-library/jest-dom';
 
@@ -35,14 +35,10 @@ describe('Testing GifItem Component', () => {
     })
 
     test('should have animate_fadeIn as className', () => {
-        
-        
+         
         const div = wrapper.find('div');
         const className = div.prop('className');
-        expect(className.includes('animate__fadeIn')).toBe(true);
-        
-        
-        
+        expect(className.includes('animate__fadeIn')).toBe(true); 
         
     })
     
