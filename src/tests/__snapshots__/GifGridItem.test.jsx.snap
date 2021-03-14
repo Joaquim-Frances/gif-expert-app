@@ -9,5 +9,8 @@ exports[`Testing GifItem Component Compononet is rendering properly 1`] = `
     alt="titulo aleatorio"
     src="https://silencetimer.com"
   />
+  <p>
+    titulo aleatorio
+  </p>
 </div>
 `;
