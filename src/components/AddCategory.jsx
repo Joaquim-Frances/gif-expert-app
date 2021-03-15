@@ -17,8 +17,6 @@ export const AddCategory = ( {setCategories} ) => {
     const handleSubmit = (event) =>{
         event.preventDefault();
 
-        console.log('HandelSubmit!', inputValue );
-
         if( inputValue.trim().length > 2 ){ 
             setCategories( categ =>[inputValue, ...categ]);
             setInputValue('');

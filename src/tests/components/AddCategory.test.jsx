@@ -36,10 +36,16 @@ describe('Testing all "AddCategory" functions', () => {
 
     test( 'should call setCategories and clean input box', () => {
 
-        //.1 simular el input change
-        //.2 simular el submit
-        //.3 setCategories se debe haber llamado
-        //.4 el vlaor de input debe de estar en ''
+        
+        const input = wrapper.find('input');
+        const value = 'Hola Quim';
+        input.simulate('change', {target:{ value }});
+        
+        wrapper.find('form').simulate('submit', { preventDefault(){} });
+        
+        expect( setCategories ).toHaveBeenCalled();
+        
+        expect( input.prop('value')).toBe('');
 
     })
     
