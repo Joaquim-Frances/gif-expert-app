@@ -1,11 +1,17 @@
 import React from 'react';
-import { shallow } from "enzyme"
-import { AddCategory } from "../../components/AddCategory"
+import { shallow } from "enzyme";
+import { AddCategory } from "../../components/AddCategory";
+import '@testing-library/jest-dom';
 
 describe('Testing all "AddCategory" functions', () => {
 
     const setCategories = jest.fn();
-    const wrapper = shallow(<AddCategory setCategories={ setCategories }/>);
+    let wrapper;
+
+    beforeEach(()=>{
+        jest.clearAllMocks();
+        wrapper = shallow(<AddCategory setCategories={ setCategories }/>);
+    })
 
     test('should mantain the structure', () => {
         expect(wrapper).toMatchSnapshot();
@@ -23,8 +29,18 @@ describe('Testing all "AddCategory" functions', () => {
 
     test('should not enter data if input value is not correct o empty', () => {
 
-        wrapper.find('form').simulate('submit', {})
+        wrapper.find('form').simulate('submit', { preventDefault(){} });
+        expect( setCategories ).not.toHaveBeenCalled();
         
+    })
+
+    test( 'should call setCategories and clean input box', () => {
+
+        //.1 simular el input change
+        //.2 simular el submit
+        //.3 setCategories se debe haber llamado
+        //.4 el vlaor de input debe de estar en ''
+
     })
     
     

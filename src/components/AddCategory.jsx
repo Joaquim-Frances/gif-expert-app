@@ -10,11 +10,14 @@ export const AddCategory = ( {setCategories} ) => {
 
     const handleImputChange = (event) => {
         setInputValue(event.target.value);
+
         console.log('HandleInputChange Llamado!')
     }
 
     const handleSubmit = (event) =>{
         event.preventDefault();
+
+        console.log('HandelSubmit!', inputValue );
 
         if( inputValue.trim().length > 2 ){ 
             setCategories( categ =>[inputValue, ...categ]);
