@@ -15,3 +15,23 @@ exports[`Testing GifGrid component functions should do a Match with the snapshot
   />
 </Fragment>
 `;
+
+exports[`Testing GifGrid component functions should show items when images are loaded with our useFetch 1`] = `
+<Fragment>
+  <h3>
+     
+    Son Goku
+     
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id={2}
+      key="2"
+      title="Shakyamuni"
+      url="https://silencetimer.com"
+    />
+  </div>
+</Fragment>
+`;
