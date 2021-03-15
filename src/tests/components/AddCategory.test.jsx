@@ -4,7 +4,7 @@ import { AddCategory } from "../../components/AddCategory"
 
 describe('Testing all "AddCategory" functions', () => {
 
-    const setCategories = () => { };
+    const setCategories = jest.fn();
     const wrapper = shallow(<AddCategory setCategories={ setCategories }/>);
 
     test('should mantain the structure', () => {
@@ -20,6 +20,13 @@ describe('Testing all "AddCategory" functions', () => {
         expect(wrapper.find('p').text().trim()).toBe(value);
 
     })
+
+    test('should not enter data if input value is not correct o empty', () => {
+
+        wrapper.find('form').simulate('submit', {})
+        
+    })
+    
     
         
 
