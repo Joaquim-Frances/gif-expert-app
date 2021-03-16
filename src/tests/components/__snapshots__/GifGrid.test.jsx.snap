@@ -32,6 +32,12 @@ exports[`Testing GifGrid component functions should show items when images are l
       title="Shakyamuni"
       url="https://silencetimer.com"
     />
+    <GifGridItem
+      id={3}
+      key="3"
+      title="Amitaba"
+      url="https://silencetimer.com"
+    />
   </div>
 </Fragment>
 `;
