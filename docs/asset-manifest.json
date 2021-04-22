@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/gif-expert-app/static/css/main.6254e89a.chunk.css",
+    "main.js": "/gif-expert-app/static/js/main.f6ae7e3b.chunk.js",
+    "main.js.map": "/gif-expert-app/static/js/main.f6ae7e3b.chunk.js.map",
+    "runtime-main.js": "/gif-expert-app/static/js/runtime-main.1beb5498.js",
+    "runtime-main.js.map": "/gif-expert-app/static/js/runtime-main.1beb5498.js.map",
+    "static/js/2.8fbad52b.chunk.js": "/gif-expert-app/static/js/2.8fbad52b.chunk.js",
+    "static/js/2.8fbad52b.chunk.js.map": "/gif-expert-app/static/js/2.8fbad52b.chunk.js.map",
+    "index.html": "/gif-expert-app/index.html",
+    "static/css/main.6254e89a.chunk.css.map": "/gif-expert-app/static/css/main.6254e89a.chunk.css.map",
+    "static/js/2.8fbad52b.chunk.js.LICENSE.txt": "/gif-expert-app/static/js/2.8fbad52b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1beb5498.js",
+    "static/js/2.8fbad52b.chunk.js",
+    "static/css/main.6254e89a.chunk.css",
+    "static/js/main.f6ae7e3b.chunk.js"
+  ]
+}
